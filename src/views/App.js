@@ -1,23 +1,17 @@
-import './App.css';
-
-function App() {
+import "./App.scss";
+import Excomponent from "./exam/excomponent";
+import Excount from "./exam/Excount";
+import Excolor from "./exam/Excolor";
+let App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Excomponent />
+        <Excount />
+        <Excolor />
       </header>
     </div>
   );
-}
+};
 
 export default App;
