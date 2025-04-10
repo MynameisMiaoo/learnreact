@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class excomponent extends Component {
+class Excomponent extends Component {
   state = {
     fname: "",
     lname: "",
@@ -47,4 +47,4 @@ class excomponent extends Component {
   }
 }
 
-export default excomponent;
+export default Excomponent;
